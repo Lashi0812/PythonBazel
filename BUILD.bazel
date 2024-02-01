@@ -1,0 +1,6 @@
+
+py_binary(
+    name = "main",
+    srcs = ["main.py"],
+    deps = ["//base:test"],
+)

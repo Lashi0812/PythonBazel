@@ -1,0 +1,5 @@
+py_library(
+    name = "level2",
+    srcs = ["level2.py"],
+    visibility = ["//visibility:public"],
+)

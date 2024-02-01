@@ -1,0 +1,7 @@
+py_binary(
+    name = "test",
+    deps = ["//base/level_1:level1",
+        "//base/level_1/level_2:level2"],
+    srcs = ["test.py"],
+    visibility = ["//visibility:public"],
+)
